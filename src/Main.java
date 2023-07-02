@@ -14,6 +14,14 @@ public class Main {
         studentNames.add("Zeek");
         studentNames.add("Donald");
 
+        Collections.sort(studentNames);
+        int indexOfSearchKey = Collections.binarySearch(studentNames, "Alejandro");
+        studentNames.forEach(x -> System.out.println(x + " (Sorted)"));
+        System.out.println();
+        System.out.println(studentNames.get(indexOfSearchKey) + " (Binary Search Match)");
+        System.out.println();
+
+
         List<String> teacherNames = new ArrayList<>();
         studentNames.add("Bill");
         studentNames.add("Dom");
