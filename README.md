@@ -1,3 +1,3 @@
 # java-streams
 
-Simple java-stream practice, with various examples
+Simple Java streams practice, with various examples
